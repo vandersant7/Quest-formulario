@@ -6,7 +6,7 @@ const formulario = document.querySelector('.formulario');
 inputsVazios.forEach(input => {
     input.addEventListener('change', () => {
         if (input.value !== "") {
-            input.classList.add('formulario-preenchido')
+            input.classList.add('preenchido')
         }
     })
 })
