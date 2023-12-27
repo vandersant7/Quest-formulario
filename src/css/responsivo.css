@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    main {
+        min-height: 50vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info {
+        margin-top: 150px;
+    }
+
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html,
+body {
+    min-height: 100vh;
+    font-size: 62.5%;
+}
+
+main {
+    min-height: 100vh;
+    background: url('../images/bg-repeat.jpg') repeat-x;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.info {
+    min-width: 400px;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.info h1 {
+    max-width: 300px;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+
+.info p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 300px;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    background-color: white;
+    max-width: 340px;
+    min-height: 378px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.input, .enviar {
+    width: 298.01px;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 700;
+    border: solid 1px;
+    margin-bottom: 15px;
+}
+
+.mensagem {
+    margin-bottom: 7px;
+}
+
+.input::placeholder{
+    font-size: 1.8rem;
+    padding: 8px 0 0 9.93px;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.input.mensagem {
+    min-height: 100px;
+    resize: none;
+    margin-bottom: 7px;
+}
+
+.enviar {
+    min-height: 41.13px;
+    cursor: pointer;
+    border-style: none;
+    color: white;
+    background-color: #3CCC87;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.conteiner-input {
+    position: relative;
+}
+
+ .mensagem-alerta {
+    color: #F52E2E;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    display: none;
+}
+
+.alerta-textarea {
+    top: 100px;
+}
+
+.mensagem-alerta:nth-child(9) {
+    top: 40px;
+}
+
+.aviso {
+    margin-bottom: 7px;
+}
+
+.formulario-preenchido {
+    border: 1px solid #00C22B;
+}
+
+.mudar-cor {
+    border: 1px solid #F52E2E;
+}
+
+.message-error {
+    display: block;
+}
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest - Formulario com validação</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+</head>
+
+<body>
+    <main>
+        <section class="info">
+            <h1>Ficou com dúvida?
+                Nos mande uma mensagem!
+            </h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </section>
+
+        <section class="container-form">
+
+            <form method="GET" action="index.html" class="formulario">
+
+                <div class="conteiner-input">
+                    <input type="text" name="nome" id="nome" placeholder="Nome completo*" class="input">
+                    <span class="mensagem-alerta">campo obrigatório</span>
+                </div>
+
+                <div class="conteiner-input">
+                    <input type="email" name="email" id="email" placeholder="Email*" class="input">
+                    <span class="mensagem-alerta">campo obrigatório</span>
+                </div>
+
+                <div class="conteiner-input">
+                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone*" class="input">
+                    <span class="mensagem-alerta">campo obrigatório</span>
+                </div>
+
+                <div class="conteiner-input">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem*"
+                        class="input mensagem"></textarea>
+                    <span class="mensagem-alerta alerta-textarea">campo obrigatório</span>
+                </div>
+
+                <p class="aviso">*campo obrigatório</p>
+                <input type="submit" value="Enviar" id="enviar" class="enviar">
+            </form>
+
+        </section>
+    </main>
+
+    <script src="./src/js/validacao.js"></script>
+</body>
+
+</html>
