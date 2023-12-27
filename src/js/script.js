@@ -17,7 +17,7 @@ formulario.addEventListener('submit', function(event) {
         if (input.value === "") {
             event.preventDefault();
             input.classList.add('mudar-cor');
-            input.nextElementSibling.classList.add('message-error');
+            input.nextElementSibling.classList.add('campo-invalido');
         } else {
             return true
         }
