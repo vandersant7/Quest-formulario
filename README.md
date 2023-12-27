@@ -18,17 +18,6 @@ Neste desafio do **Curso DevQuest**, o objetivo é criar um formulário HTML e i
     <link rel="stylesheet" href="./src/css/estilos.css">
 </head>
 
-<body>
-    <main>
-        <section class="info">
-            <h1>Ficou com dúvida?
-                Nos mande uma mensagem!
-            </h1>
-            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
-                24h.</p>
-        </section>
-     ```
-
 2. **JavaScript para Validação**:
    - Criei um arquivo chamado `script.js` e linkei ao meu HTML.
    - No arquivo `script.js`, selecione os elementos do formulário e adicione os ouvintes de eventos necessários:
